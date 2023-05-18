@@ -1,0 +1,131 @@
+/* This creates a skinny side bar fixed to the left of the page */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+:root {
+  --white: #fff;
+  --primary: #8a1538;
+  --secondary: #eeeee4;
+  --gr-1: rgba(138, 21, 56, 0.607);
+  --gr-2: rgba(138, 21, 56, 0.665);
+}
+
+.landing-page {
+  background: linear-gradient(var(--gr-1), var(--gr-2)), url(premier-league-background.png) no-repeat center center / cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-outline {
+    padding: 0.6rem 2rem;
+    border: 0.2rem solid var(--secondary);
+    color: var(--white);
+    font-weight: 500;
+    border-radius: 3rem;
+    transition: all 0.5s ease-in;
+    display: inline-flex;
+    align-items: center;
+    gap: 1rem;
+    text-decoration: none;
+}
+
+.btn-outline:hover {
+    border-color: var(--secondary);
+    color: var(--primary);
+    background: var(--secondary);
+    transition: all 0.5s ease-in;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 5rem;
+    padding: 2rem 1rem;
+    background-color: #f8f9fa;
+    z-index: 1050;
+    transition: width 0.3s ease-in-out;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+  }
+  
+  /* when the user hovers on the sidebar, expand it */
+  .sidebar:hover {
+    width: 16rem;
+  }
+  
+  /* make sure the contents of the navlink don't wrap when navbar collapses */
+  .sidebar .nav-link {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  /* fix the width of the icons */
+  .sidebar .nav-link i {
+    width: 1rem;
+  }
+  
+  /* hide the navlink labels by default */
+  .sidebar .nav-link span {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.1s ease-in-out;
+  }
+  
+  /* when the sidebar is hovered, reveal the labels */
+  .sidebar:hover .nav-link span {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  /* container for the sidebar header. make sure the contents don't wrap when
+   * the sidebar is collapsed.
+   */
+  .sidebar-header {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    overflow: hidden;
+    white-space: nowrap;
+  }
+  
+  /* position the header relative to the logo and hide by default */
+  .sidebar-header h2 {
+    opacity: 0;
+    margin-left: 1rem;
+    margin-bottom: 0;
+    transition: opacity 0.1s ease-in-out;
+  }
+  
+  /* reveal the header when the sidebar is toggled */
+  .sidebar:hover .sidebar-header h2 {
+    opacity: 1;
+  }
+  
+  /* position the content relative to the collapsed sidebar */
+  .content {
+    margin-left: 7rem;
+    margin-right: 2rem;
+    padding: 2rem 1rem;
+  }
+
+  .default-div {
+    border: none;
+    margin: 1%;
+    border-radius: 25px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
+    display: inline-block;
+    }

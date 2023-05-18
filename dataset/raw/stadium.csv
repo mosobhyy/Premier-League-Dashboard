@@ -1,0 +1,72 @@
+"stadium_id","stadium_name","city","capacity","record_pl_attendance","address","pitch_size","built","phone"
+"133","Emirates Stadium","London","60260","60,161 v Manchester United (3 November 2007)","Highbury House, 75 Drayton Park, London, N5 1BU","105m x 68m","2006","+44 (0) 20 7619 5003"
+"134","Villa Park","Birmingham","42682","Null","Villa Park, Trinity Road, Birmingham, B6 6HE","105m x 68m","1897","+44 (0)121 327 5353"
+"135","Oakwell","Barnsley","23009","Null","Oakwell, Grove Street, Barnsley, S71 1ET","100m x 68m","1887","+44 (0)1226 211211"
+"136","St. Andrew's Trillion Trophy Stadium","Birmingham","29409","Null","St. Andrew's Stadium, Birmingham, B9 4RL","105m x 68m","1906","0121 772 0101"
+"137","Ewood Park","Blackburn","31367","Null","Ewood Park, Blackburn, Lancashire, BB2 4JF","105m x 68m","1882","0871 222 1444"
+"138","Bloomfield Road","Blackpool","17338","Null","Seasiders Way, Blackpool, FY1 6JJ","102m x 68m","1899","01253 401953"
+"139","University of Bolton Stadium","Bolton","28723","Null","Burnden Way, Horwich, Bolton, BL6 6JW","105m x 68m","1997","01204 673 673"
+"140","Vitality Stadium","Bournemouth","11329","11,459 v Liverpool (4 December 2016 & 17 April 2016)","Vitality Stadium, Dean Court, Bournemouth, BH7 7AF","105m x 68m","1910","+44 (0)344 576 1910"
+"141","Valley Parade","Bradford","25136","Null","Bradford, West Yorkshire, BD8 7DY","103m x 64m","1886","0871 978 1911"
+"142","Brentford Community Stadium",\N,"17250","Null","Brentford Community Stadium, Lionel Road South, Brentford, TW8 0RU","105m x 68m","2020","+44 (0) 20 8847 2511"
+"143","Amex Stadium","Falmer","30666","30,565 v Everton (15 Oct 2017)","American Express Community Stadium, Village Way, Brighton, BN1 9BL","105m x 68m","2011","+44 (0) 344 324 6282"
+"144","Turf Moor","Burnley","21944","21,870 v Manchester United (24 April 2017)","Turf Moor, Harry Potts Way, Burnley, Lancashire, BB10 4BX","105m x 68m","1883","+44 (0) 871 221 1882"
+"145","Cardiff City Stadium","Cardiff","33316","32,321 v Manchester City (22 September 2018)","Cardiff City Stadium, Leckwith Road, Cardiff, CF11 8AZ","105m x 68m","2009","+44 (0) 845 365 115"
+"146","The Valley","London","27111","Null","Floyd Road, Charlton, SE7 8BL","102m x 67m","1919","03330 14 44 44"
+"147","Stamford Bridge","London","40853","42,332 v Newcastle United (4 December 2004)","Stamford Bridge, Fulham Road, London, SW6 1HS","103m x 67.5m","1877","0044 207 386 9373"
+"148","Highfield Road","Coventry","32609","Null","Phoenix Way, Foleshill, Coventry, West Midlands, CV6 6GE","105m x 68m","2005","024 7699 1987"
+"149","Selhurst Park","London","25486","30,115 v Manchester United (21 April 1993)","Selhurst Park Stadium, Holmesdale Road, London, SE25 6PU","101m x 68m","1924","+44 (0) 20 8768 6000"
+"150","Pride Park Stadium","Derby","33597","Null","Pride Park Stadium, Pride Park, Derby, DE24 8XL","105m x 68m","1997","0871 472 1884"
+"151","Goodison Park","Liverpool","39221","40,552 v Liverpool (11 December 2004)","Goodison Park, Goodison Road, Liverpool, L4 4EL","100.48m x 68m","1892","+44 (0) 151 556 1878"
+"152","Craven Cottage","London","19000","Null","Stevenage Road, London, SW6 6HH","100m x 65m","1896","0843 208 1222"
+"153","John Smith's Stadium","Huddersfield","24169","24,426 v Manchester United (21 October 2017)","The John Smith's Stadium, Stadium Way, Huddersfield, HD1 6PX","106m x 68m","1994","+44 (0) 1484 484112"
+"154","KCOM Stadium","Hull","24983","Null","The KCOM Stadium, West Park, Hull, HU3 6HU","105m x 68m","2002","+44 (0) 1482 504600"
+"155","Portman Road","Ipswich","30311","Null","Portman Road, Ipswich, Suffolk, IP1 2DA","102m x 64m","1884","01473 400 500"
+"156","Elland Road","Leeds","37890","Null","Elland Road, Leeds, LS11 0ES","106m x 69m","1897","0871 334 1919"
+"157","King Power Stadium","Leicester","32273","32,242 v Sunderland (8 August 2015)","King Power Stadium, Filbert Way, Leicester, LE2 7FL","105m x 68m","2002","+44 (0) 344 815 5000"
+"158","Anfield","Liverpool","53394","53,292 v AFC Bournemouth (5 April 2017)","Anfield, Anfield Road, Liverpool, L4 0TH","101m x 68m","1884","+44 (0)151 263 2361"
+"159","Etihad Stadium","Manchester","55017","54,693 v Leicester City (6 February 2016)","Etihad Stadium, Etihad Campus, Manchester, M11 3FF","105m x 68m","2002","+44 (0) 161 444 1894"
+"160","Old Trafford","Manchester","74879","76,098 v Blackburn Rovers (31 March 2007)","Sir Matt Busby Way, Old Trafford, Manchester, M16 0RA","105m x 68m","1909","+44 (0) 161 868 8000"
+"161","Riverside Stadium","Middlesbrough","33746","Null","Riverside Stadium, Middlesbrough, TS3 6RS","105m x 68m","1995","+44 (0) 844 499 6789"
+"162","St. James' Park","Newcastle","52305","52,490 v West Ham United (11 November 2012)","St. James' Park, Strawberry Place, Newcastle Upon Tyne, NE1 4ST","105m x 68m","1892","+44 (0) 844 372 1892 ("
+"163","Carrow Road","Norwich","27244","Null","Carrow Road, Norwich, NR1 1JE","104m x 68m","1935","01603 760 760"
+"164","City Ground","Nottingham","30445","Null","City Ground, Nottingham, NG2 5FJ","105m x 71m","1898","0115 982 4444"
+"165","Boundary Park","Oldham","13512","Null","Furtherwood Rd, Oldham, Greater Manchester, OL1 2PAA","101m x 68m","1904","0161 624 4972"
+"166","Fratton Park","Portsmouth","21178","Null","Fratton Park, Frogmore Road, Portsmouth, PO4 8RA","105m x 67m","1898","02392 731204"
+"167","Loftus Road","London","18439","Null","Loftus Road Stadium, South Africa Road, London, W12 7PJ","102m x 66m","1904","020 8743 0262"
+"168","Madejski Stadium","Reading","24161","Null","Bennett Road, Reading, RG2 0FL","102m x 70m","1998","0118 968 1100"
+"169","Bramall Lane","Sheffield","32050","Null","Bramall Lane, Sheffield, South Yorkshire, S2 4SU","102m x 66m","1855","0114 253 7200"
+"170","Hillsborough","Sheffield","39732","Null","Leppings Ln, Sheffield, South Yorkshire, S6 1SW","105m x 68m","1899","03700 20 1867"
+"171","St. Mary's Stadium","Southampton","32384","32,151 v Arsenal (29 December 2003)","St Mary's Stadium, Britannia Road, Southampton, SO14 5FP","105m x 68m","2001","+44 (0) 845 688 9448"
+"172","bet365 Stadium","Stoke","30089","29,661 v Chelsea (23 September 2017)","bet365 Stadium, Stanley Matthews Way, Stoke-on-Trent, ST4 4EG","105m x 68m","1997","+44 (0) 1782 367599"
+"173","Stadium of Light","Sunderland","48707","Null","Stadium of Light, Sunderland, SR5 1SU","105m x 68m","1997","+44 (0) 871 911 1200"
+"174","Liberty Stadium","Swansea","21088","20,972 v Liverpool (1 May 2016)","Liberty Stadium, Landore, Swansea, SA1 2FA","105m x 68m","2005","+44 (0) 1792 616600"
+"175","County Ground","Swindon",\N,"Null","Null","Null",\N,"Null"
+"176","Tottenham Hotspur Stadium","London","62062","Null","Lilywhite House, 782 High Road, Tottenham, London, N17 0BX","100m x 67m","2019","+44 (0) 344 499 5000"
+"177","Vicarage Road","Watford","21000","21,590 v Sunderland (27 November 1999)","Vicarage Road Stadium, Watford, Hertfordshire, WD18 0ER","105m x 68m","1922","+44 (0) 1923 496000"
+"178","The Hawthorns","West Bromwich","26688","27,751 v Portsmouth (15 May 2005)","The Hawthorns, West Bromwich, West Midlands, B71 4LF","105m x 68m","1900","+44 (0) 871 271 1100"
+"179","London Stadium","London","60000","59,946 v Arsenal (12 January 2019)","London Stadium, Queen Elizabeth Olympic Park, London, E20 2ST","105m x 68m","2011","+44 (0)20 85482748"
+"180","DW Stadium","Wigan","25133","Null","Loire Drive, Robin Park, Wigan, Greater Manchester, WN5 0UH","105m x 68m","1999","01942 774 000"
+"231","Highbury","London",\N,\N,\N,\N,\N,\N
+"232","Ayresome Park","Middlesbrough",\N,\N,\N,\N,\N,\N
+"233","Maine Road","Manchester",\N,\N,\N,\N,\N,\N
+"234","White Hart Lane","London",\N,\N,\N,\N,\N,\N
+"235","The Dell","Southampton",\N,\N,\N,\N,\N,\N
+"240","Boleyn Ground","London",\N,\N,\N,\N,\N,\N
+"244","Filbert Street","Leicester",\N,\N,\N,\N,\N,\N
+"245","Burnden Park","Bolton",\N,\N,\N,\N,\N,\N
+"246","Baseball Ground","Derby",\N,\N,\N,\N,\N,\N
+"247","Roker Park","Sunderland",\N,\N,\N,\N,\N,\N
+"284","Macron Stadium","Bolton",\N,\N,\N,\N,\N,\N
+"285","iPro Stadium","Derby",\N,\N,\N,\N,\N,\N
+"322","Molineux Stadium","Wolverhampton","32050","31,322 v Manchester City (25 August 2018)","Molineux Stadium, Waterloo Rd, Wolverhampton, WV1 4QR","105m x 68m","1889","+44 (0) 871 222 1877"
+"323","St. Andrew's Stadium","Birmingham",\N,\N,\N,\N,\N,\N
+"324","Sports Direct Arena","Newcastle",\N,\N,\N,\N,\N,\N
+"325","Molineux","Wolverhampton",\N,\N,\N,\N,\N,\N
+"326","The Friends Provident St Mary's Stadium","Southampton",\N,\N,\N,\N,\N,\N
+"327","St Andrews","Birmingham",\N,\N,\N,\N,\N,\N
+"328","Britannia Stadium","Stoke",\N,\N,\N,\N,\N,\N
+"329","Kiyan Prince Foundation Stadium","London",\N,\N,\N,\N,\N,\N
+"330","St James' Park","Newcastle",\N,\N,\N,\N,\N,\N
+"331","Goldsands Stadium","Bournemouth",\N,\N,\N,\N,\N,\N
+"332","Wembley Stadium","London",\N,\N,\N,\N,\N,\N
