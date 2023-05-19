@@ -4,9 +4,6 @@ import dash_bootstrap_components as dbc
 import pandas as pd
 import sys
 
-import sys
-sys.path.append('../')
-
 from utils.data import *
 
 from utils.interactivity import *

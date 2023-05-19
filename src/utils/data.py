@@ -3,8 +3,15 @@ import numpy as np
 import pandas as pd
 import os
 
-DATA_PATH = ('' if 'dataset' in os.listdir() else '../../') + 'dataset/clean'
+DATA_PATH = os.getcwd()  # get current working directory
 
+while True:
+    if os.path.exists(os.path.join(DATA_PATH, 'dataset')):
+        DATA_PATH = os.path.join(DATA_PATH, 'dataset/clean')
+        break
+    
+    DATA_PATH = os.path.dirname(DATA_PATH)
+    
 """ reading data """
 df_champions = pd.read_csv(os.path.join(DATA_PATH, 'champions.csv'))
 df_club = pd.read_csv(os.path.join(DATA_PATH, 'club.csv'))
