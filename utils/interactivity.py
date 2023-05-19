@@ -92,8 +92,6 @@ def interactive(app):
     Output(component_id='clock', component_property='children'),
     Output(component_id='field', component_property='children'),
     Output(component_id='referee', component_property='children'),
-    # Output(component_id='home-team-scorers', component_property='children'),
-    # Output(component_id='away-team-scorers', component_property='children'),
     Input(component_id="selected-season", component_property="value"),
     Input(component_id="selected-match", component_property="value")
     )
@@ -111,38 +109,6 @@ def interactive(app):
             clock = filtered_match['match_date']
             field = filtered_match['stadium_name']
             referee = filtered_match['referee']
-
-            # # get goals in target match
-            # mask = (df_player_performance['match_id'] == filtered_match['match_id'].values[0]) & (df_player_performance['type_of_stat'].isin(['goal', 'goal (by penalty)', 'own goal']))
-            # match_goals_info = df_player_performance[mask]
-
-            # # get scorer(s) info
-            # match_goals_info = match_goals_info.merge(df_player_stats, on=['match_id', 'player_id'])
-
-            # # get name(s) of scorer(s)
-            # match_goals_info = match_goals_info.merge(df_player, on='player_id')
-
-            # # get scorer(s) by team
-            # home_team_scorers = match_goals_info[match_goals_info['is_home_side']==1][['player_name', 'minute']].values
-            # away_team_scorers = match_goals_info[match_goals_info['is_home_side']==0][['player_name', 'minute']].values
-
-            # home_team_scorers_to_return = [html.Div([
-            #                                     html.Span(' '.join(scorer)+"'",
-            #                                             style={'margin': '5px'}),
-            #                                     html.Img(src='assets/soccer-ball-icon.png', style={'width': '25%'}), 
-            #                                 ], style={'display': 'flex',
-            #                                         'align-items': 'baseline',
-            #                                         'justify-content': 'start'}) 
-            #                               for scorer in home_team_scorers]
-            
-            # away_team_scorers_to_return = [html.Div([
-            #                                     html.Span(' '.join(scorer)+"'",
-            #                                             style={'margin': '5px'}),
-            #                                     html.Img(src='assets/soccer-ball-icon.png', style={'width': '25%'}), 
-            #                                 ], style={'display': 'flex',
-            #                                         'align-items': 'baseline',
-            #                                         'justify-content': 'start'}) 
-            #                               for scorer in away_team_scorers]
             
             return home_team_logo, away_team_logo, home_team_score, away_team_score, clock, field, referee
     

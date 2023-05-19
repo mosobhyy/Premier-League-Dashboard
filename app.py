@@ -31,7 +31,5 @@ app.layout = html.Div([dcc.Location(id="url"), content],
 interactive(app)
 
 
-# if __name__ == "__main__":
-#     app.run_server(debug=True)
-
-app.run_server()
+if __name__ == "__main__":
+    app.run_server(debug=False)

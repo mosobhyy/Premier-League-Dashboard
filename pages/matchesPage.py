@@ -161,46 +161,10 @@ dropdown_menus = html.Div([
     
 ], style={'width': '100%', 'height': '100%', 'display': 'flex',
           'justify-content': 'flex-end', 'padding': '10px'})
-dcc
-from utils.home_figures import *
 
 """ Home Page """
 figures = html.Div(id='match-stats-content', className="content", children=[
         # Figures
-
-        # # Goals Count per Minute
-        # html.Div(className='default-div', children=[
-        #     dcc.Graph(figure=goals_per_minute_figure),
-        # ], style={'width': '100%'}),
-        
-        # # Goals Count per Minute over Seasons
-        # html.Div(className='default-div', children=[
-        #     dcc.Graph(figure=goals_per_minute_season_figure),
-        # ], style={'width': '100%'}),
-
-        # # Clubs Scored and Conceded Goals
-        # html.Div(className='default-div', children=[
-        #     dcc.Graph(figure=scored_conceded_goals_figure),
-        # ], style={'width': '50%'}),
-
-
-        # html.Div([
-        #     # Top 10 Scorers
-        #     html.Div(className='default-div', children=[
-        #         dcc.Graph(figure=top_10_scorers_figure),
-        #     ], style={'width': '125%'}),
-
-        #     # Top 10 assist makers
-        #     html.Div(className='default-div', children=[
-        #         dcc.Graph(figure=top_10_assist_makers_figure),
-        #     ], style={'width': '125%'}),
-
-        # ], style={'width': '40%', 'display': 'inline-block'}),
-
-        # # Top 10 Contributors
-        # html.Div(className='default-div', children=[
-        #     dcc.Graph(figure=top_10_contributors_figure),
-        # ], style={'width': '100%'}),
 
     ],)
 
