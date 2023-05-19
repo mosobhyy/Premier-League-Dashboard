@@ -184,7 +184,8 @@ def get_match_figures(match_id):
                                                                       'red_cards': 'Red'})
     
     cards_figure = px.bar(df_filtered_match_cards, x='club_name', y=['Yellow', 'Red'],
-                          labels={'variable': 'Card', 'club_name':'Club', 'value': 'Cards Count'})
+                          labels={'variable': 'Card', 'club_name':'Club', 'value': 'Cards Count'},
+                          title='Cards')
 
     cards_figure.update_layout({ 'plot_bgcolor': 'rgba(0, 0, 0, 0)',
                                                'paper_bgcolor': 'rgba(0, 0, 0, 0)',
@@ -197,7 +198,8 @@ def get_match_figures(match_id):
 
     passes_figure = px.bar(df_filtered_match_passes, x='club_name', y='passes',
                                         labels={'variable': 'Passes', 'club_name':'Club'},
-                                        color='club_name')
+                                        color='club_name',
+                                        title='Passes')
 
     passes_figure.update_layout({ 'plot_bgcolor': 'rgba(0, 0, 0, 0)',
                                 'paper_bgcolor': 'rgba(0, 0, 0, 0)',
