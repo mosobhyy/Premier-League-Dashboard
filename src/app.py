@@ -16,6 +16,8 @@ app = Dash(
     external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.FONT_AWESOME]
 )
 
+server = app.server
+
 # set app title
 app.title = 'Premier League'
 
