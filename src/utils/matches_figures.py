@@ -149,8 +149,13 @@ def get_match_figures(match_id):
     # Possession
     df_filtered_match_possession = df_filtered_match_stats[['club_name', 'possession']].copy()
 
+    color_map = {home_team_name: '#636EFA', # blue 
+                away_team_name: '#EF553B'} # red
+
     possession_figure = px.pie(df_filtered_match_possession, values='possession', hole=0.5,
                                names='club_name',
+                               color='club_name',
+                               color_discrete_map=color_map,
                                hover_name='club_name',
                                title='Posession')
 
@@ -184,8 +189,7 @@ def get_match_figures(match_id):
                                                                       'red_cards': 'Red'})
     
     cards_figure = px.bar(df_filtered_match_cards, x='club_name', y=['Yellow', 'Red'],
-                          labels={'variable': 'Card', 'club_name':'Club', 'value': 'Cards Count'},
-                          title='Cards')
+                          labels={'variable': 'Card', 'club_name':'Club', 'value': 'Cards Count'})
 
     cards_figure.update_layout({ 'plot_bgcolor': 'rgba(0, 0, 0, 0)',
                                                'paper_bgcolor': 'rgba(0, 0, 0, 0)',
@@ -196,10 +200,14 @@ def get_match_figures(match_id):
     df_filtered_match_passes = df_filtered_match_stats[['club_name', 'passes']]
     df_filtered_match_passes
 
+    # set teams representation colors
+    color_map = {home_team_name: '#636EFA', # blue 
+                 away_team_name: '#EF553B'} # red
+
     passes_figure = px.bar(df_filtered_match_passes, x='club_name', y='passes',
                                         labels={'variable': 'Passes', 'club_name':'Club'},
                                         color='club_name',
-                                        title='Passes')
+                                        color_discrete_map=color_map)
 
     passes_figure.update_layout({ 'plot_bgcolor': 'rgba(0, 0, 0, 0)',
                                 'paper_bgcolor': 'rgba(0, 0, 0, 0)',
