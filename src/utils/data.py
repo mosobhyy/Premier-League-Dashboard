@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 import os
 
-DATA_PATH = ('' if 'dataset' in os.listdir() else '../') + 'dataset/clean'
+DATA_PATH = ('' if 'dataset' in os.listdir() else '../../') + 'dataset/clean'
 
 """ reading data """
 df_champions = pd.read_csv(os.path.join(DATA_PATH, 'champions.csv'))
