@@ -28,7 +28,7 @@ scoreboard = html.Div(
                             className="match-tournament",
                             children=[
                                 html.Img(
-                                    src="assets/premier-league.png"
+                                    src="https://assets.codepen.io/285131/pl-logo.svg"
                                 ),
                                 "English Premier League",
                             ],
@@ -170,6 +170,8 @@ figures = html.Div(id='match-stats-content', className="content", children=[
 
 match_page = html.Div([
     dropdown_menus,
-    scoreboard,
-    figures
+    dbc.Spinner([scoreboard, figures],
+                 color='primary', type='grow',
+                 spinner_style={"position":"absolute", "left":"50%", "top":"120px"},
+                 delay_hide=25),
 ])
