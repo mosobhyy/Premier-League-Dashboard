@@ -13,6 +13,7 @@ from utils.interactivity import *
 
 """ define app """
 app = Dash(
+    __name__,
     external_stylesheets=[dbc.themes.BOOTSTRAP, dbc.icons.FONT_AWESOME]
 )
 

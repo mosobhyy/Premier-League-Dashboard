@@ -28,7 +28,7 @@ scoreboard = html.Div(
                             className="match-tournament",
                             children=[
                                 html.Img(
-                                    src="https://assets.codepen.io/285131/pl-logo.svg"
+                                    src="assets/premier-league.png"
                                 ),
                                 "English Premier League",
                             ],
