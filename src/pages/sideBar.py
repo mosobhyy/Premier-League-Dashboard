@@ -7,10 +7,13 @@ sidebar = html.Div(
     [
         html.Div(
             [
-                # width: 3rem ensures the logo is the exact width of the
-                # collapsed sidebar (accounting for padding)
-                html.Img(src='assets/premier-league.png', style={"width": "3rem"}),
-                html.H4("Premier League", style={"margin-top": "10%"}),
+                html.A(href='/',
+                    style={"display": "flex", "align-items": "center", 
+                           "text-decoration": "none", "color": "darkslateblue"},
+                    children=[
+                        html.Img(src='assets/premier-league.png', style={"width": "3rem"}),
+                        html.H4("Premier League", style={"margin-top": "10px"}),
+                    ])
             ],
             className="sidebar-header",
         ),
